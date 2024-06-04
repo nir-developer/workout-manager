@@ -1,0 +1,19 @@
+# BOTH CLIENT AND SERVER - Ignore node_modules directories
+node_modules/
+
+
+#SERVER
+/workout-manager-server.config.env
+
+#CLIENT
+# Ignore Parcel cache directories
+.parcel-cache/
+
+dist/
+
+Workout-Manager-Summary
+
+
+
+
+

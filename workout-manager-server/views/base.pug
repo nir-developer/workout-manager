@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        //- CHECK IF I MUST ADD TYPE=MODULE - WHEN USING PARCEL!
+        script(src="/public/js/index.js" defer  type="module")
+        //- WITHOUT REL ATTRIBUTE - DID NOT WORK!
+        link(href="/public/css/style.css", rel="stylesheet")
+    body 
+
+    include _header 
+
+    block content 
+
+    //h1= message
+
+
+    include _footer

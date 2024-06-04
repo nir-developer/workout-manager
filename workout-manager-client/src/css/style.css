@@ -1,0 +1,43 @@
+/*GLOBAL RESET*/
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+   font-family: sans-serif;
+   font-size: 1.8rem;
+   background-color: #e64980
+}
+
+.container{
+    max-width:120rem;
+    margin:0 auto;
+   
+    padding:1.2rem;
+    
+
+}
+/*HEADER*/
+.header{
+    background-color: #f7f7f7;
+    display: flex;
+    height:7.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__user-menu{
+    display: flex;
+}
+
+.header__logo{
+    height:3.6rem
+}
+
